@@ -1,33 +1,27 @@
+/*CSS for all*/
 *{
     margin: 0 0;
-    padding: 0 0;
-    font-family: 'Lobster', cursive;
 }
 .text-center{
     text-align: center;
 }
-.welcome{
-    background-color: #ececec;    
+.first{
+    background-color: #fff;    
 }
-.container1{
+.one{
     display: flex;
-    width: 80%;
-    margin: 0 auto;
     justify-content: center;
+    width: 90%;
+    margin: 0 auto;
 }
-h1{
-    font-size: 50px;
-}
-h2{
-    font-size: 30px;
+h3{
+    font-size: 40px;
 }
 p{
     margin-top: 20px;
-    font-family: 'Slabo 27px', serif;
 }
-small{
-    color: #a19d9d;
-    font-family: 'Slabo 27px', serif;
+h1{
+    font-size: 70px;
 }
 .btn{
     padding: 1%;
@@ -35,48 +29,35 @@ small{
     margin-top: 20px;
     font-size: 1rem;
     border-radius: 5px;
-    font-family: 'Slabo 27px', serif;
 }
-.btn-primary{
+.primary{
     background-color: #E55473;
     color: white;
     cursor: pointer;
 }
-.box1{
-    padding-top: 150px;
-    padding-right: 80px;
-}
 img{
     width: 100%;
 }
-.categories{
+
+/*CSS for first*/
+.first{
+    background-color: #fff;    
+}
+.grp1{
+    padding-top: 150px;
+    padding-right: 80px;
+}
+
+/*CSS for second*/
+.second{
     padding: 4% 0;
 }
-.container2{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-}
-.container3{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 20px;
-    text-align: center;
-    justify-content: center;
-}
-.pngwing5{
-    padding-top: 60px;
-}
-.box3{
-    background-color: #ececec;
-    border-top-right-radius: 280px;
-    border-top-left-radius: 280px;
-    padding: 50px 25px 0;
+.grp3{
+    background-color: #fff;
+    padding: 40px 20px 0;
     margin: 10px;
 }
-.container4{
+.four{
     display: flex;
     width: 80%;
     margin: auto;
@@ -84,90 +65,101 @@ img{
     text-align: center;
     justify-content: space-between;
 }
-.name{
-    font-size: 15px;
-    margin: -10px 90px;
-}
-.container5{
-    display: flex;
-    width: 80%;
+.two{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
     margin: 0 auto;
-    padding-top: 20px;
+}
+.three{
+    display: flex;
+    width: 70%;
+    padding-top: 40px;
     text-align: center;
     justify-content: center;
-    }
-.box4{
-    width: 10%;
-    margin: auto;
-}
-.signup{
-    background-color: #ececec;
-    margin-top: 50px;
-    padding: 80px;    
-}
-.container6{
-    display: flex;
-    width: 80%;
     margin: 0 auto;
-    padding-top: 100px;
-    justify-content: center;
-    text-align: center;
-}
-.box5{
-    padding-top: 90px;
-}
-.box6{
-    margin-bottom: 40px;
-}
-.off{
-    color: #E55473;
-}
-.instagram{
-    padding: 50px;
-}
-.container7{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-}
-.container8{
-    display: flex;
-    width: 100%;
-    padding-top: 20px;
-    text-align: center;
-    justify-content: center;
-}
-.box7{
-    padding: 50px 10px 0;
-}
-.subscribe{
-    background-image: url(images/Rectangle\ 9.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 7% 0;
 }
 
-.subscribe input[type="email"]{
-    width: 50%;
-    padding: 1%;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Slabo 27px', serif;
+
+/*CSS for third*/
+.five{
+    display: flex;
+    width: 70%;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
 }
-.footer{
-    margin-top: 80px;
+.grp4{
+    width: 4%;
+    margin: auto;
 }
-.container10{
-    color: #ececec;
-    background-color: black;
-    padding-top: 60px;
+
+/*CSS for fourth*/
+.fourth{
+    margin-top: 30px;
+    padding: 40px;  
+    background-color: #fff;  
 }
-.flower{
+.grp5{
+    padding-top: 90px;
+}
+.grp6{
+    margin-bottom: 40px;
+}
+.six{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+.word1{
     color: #E55473;
 }
-.shop{
-    color: #ececec;
+
+/*CSS for fifth*/
+.fifth{
+    padding: 80px;
 }
+.seven{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+.eight{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+/*CSS for sixth*/
+.sixth{
+    background-image: url(resource/Rectangle\ 9.png);
+    background-size: cover;
+    padding: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*CSS for seventh*/
+.seventh{
+    margin-top: 90px;
+}
+.word2{
+    color: #E55473;
+}
+.word3{
+    color: #fff;
+}
+.ten{
+    color: #ececec;
+    background-color: black;
+    padding-top: 90px;
+}
+
